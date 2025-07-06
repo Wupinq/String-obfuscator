@@ -1,4 +1,3 @@
-Merhaba herkese.
 HashMap'in unicodelarını kendinizce değiştirebilirsiniz.
 Eğer herhangi bir proje üzerinde çalışıyorsanız direkt olarak jar'ı library kısmından ekleyin.
 
