@@ -103,19 +103,19 @@ public class Main {
 
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("İşlem seç knk: Decrypt için '1', Encrypt için '2': ");
+        System.out.println("Choose operation: Decrypt '1', Encrypt '2': ");
         String choice = scanner.nextLine();
 
         if (choice.equals("1")) {
-            System.out.println("Şifrelenmiş stringi yaz knk:");
+            System.out.println("Enter string:");
             String encryptedInput = scanner.nextLine();
             System.out.println("Decrypted string: " + DecryptString(encryptedInput));
         } else if (choice.equals("2")) {
-            System.out.println("Şifrelenecek stringi yaz knk:");
+            System.out.println("Enter the string:");
             String plainInput = scanner.nextLine();
             System.out.println("Encrypted string: " + EncryptString(plainInput));
         } else {
-            System.out.println("Hatalı giriş. Lütfen sadece '1' veya '2' giriniz.");
+            System.out.println("Unexpected number. Lütfen sadece '1' veya '2' giriniz.");
         }
 
         scanner.close();
